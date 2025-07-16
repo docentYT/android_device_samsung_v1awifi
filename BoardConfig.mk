@@ -31,6 +31,7 @@ TARGET_OTA_ASSERT_DEVICE := v1awifi
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_v1awifi_defconfig
 BOARD_CUSTOM_BOOTIMG := true
+BOARD_KERNEL_IMAGE_NAME := zImage
 
 # IR Blaster
 IR_HAS_ONE_FREQ_RANGE := true
